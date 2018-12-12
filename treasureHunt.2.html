@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="treasureHunt.2.css">
+    <script type="text/javascript" src="treasureHunt.2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+  </head>
+  <body>
+    <h1>To the Moon!</h1>
+    <h4>Escape our burning planet by clicking on each star...<br>Uncovering 3 moons ensures your safety.<br>But watch out! If you uncover 3 suns, you'll get burned!<br>Make sure to say hai to the &#128125;friendly aliens&#128125; along the way!</h4>
+    <table>
+      <tr class='emoji'>
+        <td id="0" onclick="checkPosition(0)">&#127775;</td>
+        <td id="1" onclick="checkPosition(1)">&#127775;</td>
+        <td id="2" onclick="checkPosition(2)">&#127775;</td>
+        <td id="3" onclick="checkPosition(3)">&#127775;</td>
+        <td id="4" onclick="checkPosition(4)">&#127775;</td>
+      </tr>
+      <tr class='emoji'>
+        <td id="5" onclick="checkPosition(5)">&#127775;</td>
+        <td id="6" onclick="checkPosition(6)">&#127775;</td>
+        <td id="7" onclick="checkPosition(7)">&#127775;</td>
+        <td id="8" onclick="checkPosition(8)">&#127775;</td>
+        <td id="9" onclick="checkPosition(9)">&#127775;</td>
+      </tr>
+      <tr class='emoji'>
+        <td id="10" onclick="checkPosition(10)">&#127775;</td>
+        <td id="11" onclick="checkPosition(11)">&#127775;</td>
+        <td id="12" onclick="checkPosition(12)">&#127775;</td>
+        <td id="13" onclick="checkPosition(13)">&#127775;</td>
+        <td id="14" onclick="checkPosition(14)">&#127775;</td>
+      </tr>
+      <tr class='emoji'>
+        <td id="15" onclick="checkPosition(15)">&#127775;</td>
+        <td id="16" onclick="checkPosition(16)">&#127775;</td>
+        <td id="17" onclick="checkPosition(17)">&#127775;</td>
+        <td id="18" onclick="checkPosition(18)">&#127775;</td>
+        <td id="19" onclick="checkPosition(19)">&#127775;</td>
+      </tr>
+      <tr class='emoji'>
+        <td id="20" onclick="checkPosition(20)">&#127775;</td>
+        <td id="21" onclick="checkPosition(21)">&#127775;</td>
+        <td id="22" onclick="checkPosition(22)">&#127775;</td>
+        <td id="23" onclick="checkPosition(23)">&#127775;</td>
+        <td id="24" onclick="checkPosition(24)">&#127775;</td>
+      </tr>
+    </table>
+    <h2 id="counter">Clicks Left: 25</h2>
+    <button type="button" class='button' onclick="playAgain()">Play Again</button>
+  </body>
+</html>
